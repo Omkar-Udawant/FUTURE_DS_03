@@ -98,3 +98,30 @@ DIVIDE(
     [Total Marketing Leads],
     0
 )
+
+
+## 🔍 Key Insights & Findings
+
+- Only **~10.5% of total marketing leads** convert into won deals, indicating significant funnel drop-offs.
+- The largest drop-off occurs between **lead generation and deal conversion**, highlighting the need for better lead qualification.
+- **Organic search and paid search** are the top-performing marketing channels in terms of both leads and won deals.
+- **Online medium and online big lead types** contribute the highest number of successful conversions.
+- **Reseller-based businesses** account for the majority of won deals compared to other business types.
+- Monthly lead trends show **seasonal fluctuations**, with noticeable dips and peaks affecting overall funnel performance.
+
+---
+
+## 📌 Conclusion
+
+This marketing funnel analysis highlights critical conversion gaps and channel performance across the lead-to-deal journey.  
+By identifying funnel drop-offs, high-performing sources, and effective lead types, the dashboard provides actionable insights to improve conversion efficiency and sales outcomes.
+
+Focusing on better lead qualification, optimizing mid-funnel engagement, and prioritizing high-converting channels can significantly enhance overall marketing ROI and deal success rates.
+
+---
+
+## ✍️ Author
+
+**Omkar Udawant**  
+Data Science & Analytics Intern – Future Interns  
+📍 Pune, India
