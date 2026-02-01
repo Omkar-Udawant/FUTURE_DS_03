@@ -26,66 +26,59 @@ The dashboard focuses on **funnel analysis and conversion storytelling**, helpin
 
 ---
 
-🎯 Business Objectives
 
-This analysis answers critical business questions such as:
+## 🎯 Business Objectives
 
-How many total marketing leads were generated?
+This dashboard answers key business questions such as:
 
-What percentage of leads are converted into deals?
+- How many **total marketing leads** were generated?
+- How many leads were **converted into deals**?
+- What is the **marketing to deal conversion rate (%)**?
+- Where are the **major funnel drop-offs**?
+- Which **marketing sources** generate the most leads and won deals?
+- Which **lead types** contribute most to successful conversions?
+- How do **monthly lead trends** change over time?
+- What is the distribution of **won deals by business type**?
 
-Where are the major funnel drop-offs?
+---
 
-Which marketing channels drive the most leads and won deals?
+## 🖼️ Dashboard Pages Overview
 
-How do lead types influence deal success?
+### 🔹 Page 1: Marketing Funnel & Conversion Overview
 
-What is the monthly trend of marketing leads?
+**Purpose:**  
+Provides a high-level snapshot of overall marketing performance and funnel efficiency.
 
-Which business types contribute most to won deals?
+**Key KPIs & Visuals:**
+- Total Marketing Leads  
+- Converted to Deals  
+- Won Deals  
+- Marketing to Deal Conversion (%)  
+- Lead-to-Deal Conversion Funnel  
+- Marketing Leads by Source  
+- Monthly Marketing Leads Trend  
 
-🖼️ Dashboard Pages Overview
-🔹 Page 1: Marketing Funnel & Conversion Overview
+---
 
-Purpose:
-Provides a high-level snapshot of the complete marketing funnel and conversion performance.
+### 🔹 Page 2: Conversion Performance Analysis
 
-Key KPIs & Visuals:
+**Purpose:**  
+Focuses on deep-dive conversion insights across channels, lead types, and business categories.
 
-Total Marketing Leads
+**Key Visuals:**
+- Won Deals by Marketing Source  
+- Distribution of Won Deals by Business Type  
+- Won Deals by Lead Type (Funnel View)  
+- Deal to Won Conversion %  
+- Marketing to Deal Conversion %  
 
-Converted to Deals
+---
 
-Won Deals
+## 📐 Key DAX Measures Used
 
-Marketing to Deal Conversion (%)
-
-Lead-to-Deal Conversion Funnel
-
-Marketing Leads by Source
-
-Monthly Marketing Leads Trend
-
-🔹 Page 2: Conversion Performance Analysis
-
-Purpose:
-Focuses on deep-dive conversion analysis across channels, lead types, and business categories.
-
-Key Visuals:
-
-Won Deals by Marketing Source
-
-Distribution of Won Deals by Business Type
-
-Won Deals by Lead Type (Funnel View)
-
-Deal to Won Conversion %
-
-Marketing to Deal Conversion %
-
-📐 Key DAX Measures Used
-Total Marketing Leads = COUNT(marketing_data[lead_id])
-
+```DAX
+Total Marketing Leads =
+COUNT(marketing_data[lead_id])
 
 Converted Deals =
 CALCULATE(
@@ -93,13 +86,11 @@ CALCULATE(
     marketing_data[deal_status] = "Converted"
 )
 
-
 Won Deals =
 CALCULATE(
     COUNT(marketing_data[deal_id]),
     marketing_data[deal_status] = "Won"
 )
-
 
 Marketing to Deal Conversion % =
 DIVIDE(
@@ -107,27 +98,3 @@ DIVIDE(
     [Total Marketing Leads],
     0
 )
-🔍 Key Insights & Findings
-
-Only ~10.5% of marketing leads successfully convert into won deals, highlighting significant funnel drop-offs.
-
-Organic search and paid search generate the highest number of leads and won deals.
-
-A large drop-off occurs between total leads and converted deals, indicating the need for better lead qualification.
-
-Online medium and online big leads contribute the most to won deals.
-
-Resellers account for the majority of successful deals compared to manufacturers and other business types.
-
-Marketing leads show seasonal fluctuations, with a noticeable dip mid-year.
-
-📌 Conclusion
-
-This marketing funnel analysis clearly highlights where conversions are lost and which channels drive real business value.
-By optimizing lead qualification, improving mid-funnel engagement, and focusing on high-performing channels and lead types, organizations can significantly improve their lead-to-customer conversion rates.
-
-The dashboard enables stakeholders to make data-driven marketing and sales decisions with clarity and confidence.
-
-✍️ Author
-
-Omkar Udawant
