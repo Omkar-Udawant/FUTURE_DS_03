@@ -9,26 +9,22 @@
 
 ## 🚀 Project Overview
 
-This project was completed as Task 3 of my Data Science & Analytics Internship at Future Interns.
-The objective of this project is to analyze the marketing funnel performance, identify conversion drop-offs, and evaluate channel-wise effectiveness using an interactive Power BI dashboard.
+This project was developed as part of my **Data Science & Analytics Internship at Future Interns**.  
+The objective of this project is to analyze **marketing funnel performance** and evaluate **lead-to-deal conversion efficiency** using an interactive **Power BI dashboard**.
 
-The dashboard provides a data-driven view of the lead-to-deal journey, helping stakeholders understand:
+The dashboard focuses on **funnel analysis and conversion storytelling**, helping stakeholders understand how leads move across different funnel stages, where major drop-offs occur, and which marketing channels and lead types contribute most to successful deal conversions. This enables **data-driven optimization of marketing and sales strategies**.
 
-How leads move through the funnel
+---
 
-Where conversions are lost
+## 🛠️ Tools & Technologies
 
-Which marketing sources generate the most value
+- **Power BI Desktop** – Dashboard design & visualization  
+- **DAX (Data Analysis Expressions)** – Funnel KPIs & conversion calculations  
+- **Microsoft Excel / CSV** – Dataset handling  
+- **Data Modeling** – Relationships & measures  
 
-🛠️ Tools & Technologies
 
-Power BI Desktop – Dashboard creation & storytelling
-
-DAX (Data Analysis Expressions) – Conversion & KPI calculations
-
-Microsoft Excel / CSV – Data preparation
-
-Data Modeling – Relationships, measures, and filters
+---
 
 🎯 Business Objectives
 
