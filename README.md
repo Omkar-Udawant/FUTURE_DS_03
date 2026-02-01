@@ -1,14 +1,13 @@
-# FUTURE_DS_03
-📊 Marketing Funnel & Conversion Performance Analysis | Power BI
+# 📊 Marketing Funnel And Conversion Analysis | Power BI
 
+![Power BI](https://img.shields.io/badge/Tool-Power%20BI-yellow)
+![Domain](https://img.shields.io/badge/Domain-Data%20Science%20%26%20Analytics-blue)
+![Status](https://img.shields.io/badge/Project-Completed-success)
+![Internship](https://img.shields.io/badge/Internship-Future%20Interns-purple)
 
+---
 
-
-
-
-
-
-🚀 Project Overview
+## 🚀 Project Overview
 
 This project was completed as Task 3 of my Data Science & Analytics Internship at Future Interns.
 The objective of this project is to analyze the marketing funnel performance, identify conversion drop-offs, and evaluate channel-wise effectiveness using an interactive Power BI dashboard.
